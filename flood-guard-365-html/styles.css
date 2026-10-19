@@ -948,3 +948,26 @@ body {
         min-height: 100px;
     }
 }
+
+/* Research Paper Highlight */
+.research-paper-column {
+    border: 1px solid rgba(74, 199, 217, 0.35);
+    background: linear-gradient(
+        145deg,
+        rgba(74, 199, 217, 0.08),
+        rgba(7, 27, 42, 0.02)
+    );
+}
+
+.research-paper-column .document-column-header > span {
+    color: #4ac7d9;
+}
+
+.research-paper-column .document-item {
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.research-paper-column .document-item:hover {
+    transform: translateY(-3px);
+    border-color: #4ac7d9;
+}
